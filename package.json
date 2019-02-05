@@ -1,0 +1,40 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "\"Resume of Vishal Singhal\"",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishal Singhal",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.5",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "handlebars": "^4.0.12",
+    "handlebars-loader": "^1.7.1",
+    "path": "^0.12.7",
+    "reset-css": "^4.0.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

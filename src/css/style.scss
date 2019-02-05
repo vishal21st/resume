@@ -1,0 +1,231 @@
+@import 'reset-css';
+@import 'variables';
+@import 'layout';
+@import 'typography';
+@import '../icomoon/style';
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  background: #eee;
+}
+
+body {
+  display: grid;
+  min-height: 100%;
+  color: $text-color-light;
+}
+
+.container {
+  background: $white;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+
+.resume-heading {
+  text-align: center;
+
+  &__left ,&__right {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &__bottom {
+    font-size: $font-large;
+    color: $text-color-light;
+    font-style: italic;
+    line-height: 1;
+  }
+}
+
+.heading-profile {
+  font-weight: 600;
+}
+
+.heading-email {
+  color: $pink;
+  font-size: $font-base;
+  font-weight: 600;
+  line-height: 2.5;
+}
+
+.resume-body {
+  position: relative;
+  padding: 30px;
+}
+
+.resume-body__main,.resume-body__aside {
+  display: inline-block;
+  float: left;
+}
+
+.resume-body__main {
+  width: 75%;
+}
+
+.resume-body__aside {
+  width: 25%;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.company-list {
+
+}
+
+.company-list__item {
+  margin-bottom: 30px;
+}
+
+
+.company-list-item__heading {
+  margin-bottom: 15px;
+}
+
+.company-logo,.company-heading {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.company-logo-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.company-logo {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.description-text {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.company-name {
+  font-weight: 700;
+}
+
+.company-name {
+  margin-bottom: 10px;
+}
+
+.designation {
+  font-size: 16px;
+  color: $text-color-light;
+}
+
+.section-heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.project-list {
+
+}
+
+.project-list-item {
+  margin-bottom: 30px;
+}
+
+.project-list-heading {
+  font-weight: 700;
+  color: $pink;
+  margin-bottom: 10px;
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: $pink;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+}
+
+.project-desc {
+
+}
+
+.date {
+  font-size: $font-base;
+  font-style: italic;
+  font-weight: 700;
+  color: $text-color-light;
+}
+
+.personal-info-section {
+  background: $bg-grey;
+  padding: 15px;
+}
+
+.personal-detail {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: 600;
+  >i {
+    color: $base-black;
+    margin-right: 7.5px;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.aside-section {
+  margin-bottom: 30px;
+}
+
+.aside-section-heading {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.aside-section-list {
+  >li {
+    margin-bottom: 15px;
+    overflow: hidden;
+    line-height: 20px;
+  }
+  
+  .badge-grey {
+    color: $grey-lighter;
+    font-size: 13px;
+    margin-left: 5px;
+    float: right;
+    &:before,&:after {
+      content: "";
+      clear: both;
+    }
+  }
+}
+
+.color-dark {
+  color: $base-black;
+}
+
+.push-down-15 {
+  margin-bottom: 15px; 
+}
+
+.text-pink {
+  color: $pink;
+}

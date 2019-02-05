@@ -1,0 +1,27 @@
+<ul class="company-list">
+  {{#each items}}
+    <li class="company-list__item">
+      <h4 class="company-list-item__heading">
+        <a href={{link}} target="blank" class="company-logo-link">
+          <image class="company-logo" src={{logo_link}}></image>
+        </a>
+        <div class="company-heading">
+          <div class="company-name">
+            <span class="company-name">
+              {{name}}
+            </span>
+            <span class="date">
+              {{tenure}}
+            </span>
+          </div>
+          <div class="designation">
+            {{role}}
+          </div>
+        </div>
+      </h4>
+      <p class="description-text">
+        {{details}}
+      </p>
+    </li>
+  {{/each}}
+</ul>
