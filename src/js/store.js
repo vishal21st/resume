@@ -5,7 +5,7 @@ export const Companies = [
     link: "https://weinvest.com",
     role: "Senior Software Engineer",
     logo_link: "images/weinvest.png",
-    details: "A fintech startup based out of Singapore. I work here as a full stack Engineer, Also leading the UI team. We use Ruby on Rails for Back-End and  React, Vue, SASS for Front-End. All are services are deployed on AWS."
+    details: "Weinvest is Fintech Startup headquartered in Singapore with its development centre in Bangalore. I work here as a Full Stack Developer and UI Team Lead. We use Ruby on Rails for Back-End, and React, Vue, SASS for Front-End. All are services are deployed on AWS."
   },
   {
     name: "Pipecast",
@@ -13,7 +13,7 @@ export const Companies = [
     link: "http://pipecast.in",
     role: "Co-founder",
     logo_link: "images/pipecast.png",
-    details: "A video streaming and collaboration platform for Video creators. We have 2 platforms Pipecast Stream [http://pipecast.in] and Pipecast Colab [http://colab.pipecast.in]. I developed the Front End for both platforms in Angualr js."
+    details: "Pipecast is a Video Streaming and Video Creators Networking Platform with two platforms - Pipecast Stream [http://pipecast.in] and Pipecast Colab [http://colab.pipecast.in]. I, as Cofounder of Pipecast, developed the Front End for both the platforms in Angualr js."
   },
   {
     name: "Eltropy Inc",
@@ -21,7 +21,7 @@ export const Companies = [
     link: "https://www.eltropy.com/",
     role: "Web Developer",
     logo_link: "images/eltropy.png",
-    details: "A Silicon Valley startup with its development center in Bangalore. Provide smart solutions to B2B collateral. I mostly worked on feature building and enhancements. Also moved the knockout.js code to Angular js."
+    details: "Eltropy is a Silicon Valley Startup with its development center in Bangalore, providing smart solutions for B2B collateral. I worked as a Web Developer on feature building and enhancements, and was also instrumental in porting the legacy knockout.js code to Angular js."
   },
   {
     name: "Bang The Table",
@@ -29,7 +29,7 @@ export const Companies = [
     link: "https://www.bangthetable.com/",
     role: "Web Developer",
     logo_link: "images/btt.png",
-    details: "Bang the table is an Australia based startup providing community engagement solutions to government and local companies.My role was to work closely with product team and implement new features and constantly improve existing ones."
+    details: "Bang the table is an Australian Startup providing community engagement solutions to local government and companies. I worked as a Web Developer and worked closely with the product team to implement new features while constantly enhancing the existing ones."
   },
   {
     name: "Tech Mahindra",
@@ -37,7 +37,7 @@ export const Companies = [
     link: "https://www.techmahindra.com",
     role: "Technical Associate",
     logo_link: "images/tech_m.gif",
-    details: "Started my career with Tech Mahindra as a Software developer. Worked on  a Release Automation Tool (NOLIO). Provided support to Tesco's Devops cell to look after the release automation and trained people on Nolio tool."
+    details: "I started my career with Tech Mahindra as a Software developer. While in Tech Mahindra, I worked on a Release Automation Tool - NOLIO. I provided support to a client Tesco's Devops cell to look after the release automation and trained its team on the said automation tool."
   }
 ]
 
