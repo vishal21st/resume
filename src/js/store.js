@@ -2,7 +2,7 @@ export const Companies = [
   {
     name: "Weinvest",
     tenure: "Aug 2016 - Present",
-    link: "https://weinvest.com",
+    link: "https://weinvest.net",
     role: "Senior Software Engineer",
     logo_link: "images/weinvest.png",
     details: "Weinvest is Fintech Startup headquartered in Singapore with its development centre in Bangalore. I work here as a Full Stack Developer and UI Team Lead. We use Ruby on Rails for Back-End, and React, Vue, SASS for Front-End. All are services are deployed on AWS."
