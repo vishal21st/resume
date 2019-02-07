@@ -1,0 +1,33 @@
+.hidden-sm {
+  display: none;
+  @include respond-to('md') {
+    display: block;
+  }
+}
+
+.hidden-lg {
+  
+  @include respond-to('lg') {
+    display: none;
+  }
+  
+}
+
+
+.hidden-xl {
+  @include respond-to('xl') {
+    display: none;
+  }
+}
+
+.hidden-md {
+  @include respond-to('md') {
+    display: none;
+  }
+}
+
+.hidden-sm {
+  @include respond-to('xl') {
+    display: none;
+  }
+}

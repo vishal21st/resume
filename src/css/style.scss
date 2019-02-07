@@ -1,7 +1,10 @@
+// @import 'grid';
 @import 'reset-css';
+@import 'mixins';
 @import 'variables';
 @import 'layout';
 @import 'typography';
+@import 'utilities';
 @import '../icomoon/style';
 
 html {
@@ -17,6 +20,10 @@ body {
 
 .container {
   background: $white;
+  width: 100%;
+  @include respond-to('sm') {
+    width: 900px;
+  }
 }
 
 .bold {
@@ -69,18 +76,26 @@ body {
 }
 
 .resume-body__main,.resume-body__aside {
-  display: inline-block;
-  float: left;
+  
+  @include respond-to('md') {
+    display: inline-block;
+    float: left;  
+  }
 }
 
 .resume-body__main {
-  width: 75%;
+  margin-bottom: rem(15);
+  @include respond-to('md') {
+    width: 75%;
+  }
 }
 
 .resume-body__aside {
-  width: 25%;
-  padding-left: 15px;
-  box-sizing: border-box;
+  @include respond-to('md') {
+    width: 25%;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
 }
 
 .company-list {
@@ -102,9 +117,11 @@ body {
 }
 
 .company-logo-link {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
+  display: none;
+  @include respond-to('md') {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .company-logo {

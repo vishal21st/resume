@@ -55,29 +55,63 @@ body {
 .container {
   width: 992px;
   margin: 0 auto;
-  padding: 30px 0; }
+  padding: 20px 0; }
+  @media screen and (min-width: 992px) {
+    .container {
+      padding: 30px 0; } }
 
 h1, h2, h3, h4, h5, h6 {
   color: #575759; }
 
 h1 {
-  font-size: 80px;
-  line-height: 100px; }
+  font-size: 3.125rem;
+  line-height: 70px; }
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 5rem;
+      line-height: 100px; } }
 
 h2 {
-  font-size: 60px; }
+  font-size: 2.5rem; }
+  @media screen and (min-width: 768px) {
+    h2 {
+      font-size: 3.75rem; } }
 
 h3 {
-  font-size: 50px; }
+  font-size: 1.875rem; }
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: 3.125rem; } }
 
 h4 {
-  font-size: 30px; }
+  font-size: 1.25rem; }
+  @media screen and (min-width: 768px) {
+    h4 {
+      font-size: 1.875rem; } }
 
 h5 {
-  font-size: 20px; }
+  font-size: 1.125rem; }
+  @media screen and (min-width: 768px) {
+    h5 {
+      font-size: 1.25rem; } }
 
 h6 {
-  font-size: 16px; }
+  font-size: 1rem;
+  line-height: 20px; }
+
+.hidden-sm {
+  display: none; }
+  @media screen and (min-width: 992px) {
+    .hidden-sm {
+      display: block; } }
+
+@media screen and (min-width: 1200px) {
+  .hidden-lg {
+    display: none; } }
+
+@media screen and (min-width: 992px) {
+  .hidden-md {
+    display: none; } }
 
 @font-face {
   font-family: 'icomoon';
@@ -124,7 +158,11 @@ body {
   color: #807f82; }
 
 .container {
-  background: #ffffff; }
+  background: #ffffff;
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 900px; } }
 
 .bold {
   font-weight: 700; }
@@ -144,7 +182,7 @@ body {
     display: inline-block;
     vertical-align: top; }
   .resume-heading__bottom {
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #807f82;
     font-style: italic;
     line-height: 1; }
@@ -154,7 +192,7 @@ body {
 
 .heading-email {
   color: #ec018b;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 2.5; }
 
@@ -162,17 +200,22 @@ body {
   position: relative;
   padding: 30px; }
 
-.resume-body__main, .resume-body__aside {
-  display: inline-block;
-  float: left; }
+@media screen and (min-width: 992px) {
+  .resume-body__main, .resume-body__aside {
+    display: inline-block;
+    float: left; } }
 
 .resume-body__main {
-  width: 75%; }
+  margin-bottom: 0.9375rem; }
+  @media screen and (min-width: 992px) {
+    .resume-body__main {
+      width: 75%; } }
 
-.resume-body__aside {
-  width: 25%;
-  padding-left: 15px;
-  box-sizing: border-box; }
+@media screen and (min-width: 992px) {
+  .resume-body__aside {
+    width: 25%;
+    padding-left: 15px;
+    box-sizing: border-box; } }
 
 .company-list__item {
   margin-bottom: 30px; }
@@ -185,9 +228,11 @@ body {
   vertical-align: middle; }
 
 .company-logo-link {
-  display: inline-block;
-  width: 50px;
-  height: 50px; }
+  display: none; }
+  @media screen and (min-width: 992px) {
+    .company-logo-link {
+      width: 50px;
+      height: 50px; } }
 
 .company-logo {
   display: inline-block;
@@ -231,7 +276,7 @@ body {
     vertical-align: middle; }
 
 .date {
-  font-size: 16px;
+  font-size: 1rem;
   font-style: italic;
   font-weight: 700;
   color: #807f82; }

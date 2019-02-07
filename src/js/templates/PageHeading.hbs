@@ -1,9 +1,17 @@
 <div class="resume-heading__left">
   <div class="resume-heading__top">{{first_name}}</div>
-  <div class="resume-heading__bottom heading-profile">{{role}}</div>
+  <div class="resume-heading__bottom heading-profile hidden-sm">{{role}}</div>
 </div>
 <div class="resume-heading__right">
   <div class="resume-heading__top bold">{{last_name}}</div>
+  <div class="resume-heading__bottom heading-email hidden-sm">
+    <i class="icon-envelope"></i>
+    {{email}}
+  </div>
+</div>
+
+<div class="hidden-lg">
+  <div class="resume-heading__bottom heading-profile ">{{role}}</div>
   <div class="resume-heading__bottom heading-email">
     <i class="icon-envelope"></i>
     {{email}}

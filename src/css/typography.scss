@@ -3,25 +3,42 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 80px;
-  line-height: 100px;
+  font-size: rem(50);
+  line-height: 70px;
+  @include respond-to('sm') {
+    font-size: rem(80);
+    line-height: 100px;
+  }
 }
 
 h2 {
-  font-size: 60px;
+  font-size: rem(40);
+  @include respond-to('sm') {
+    font-size: rem(60);
+  }
 }
 
 h3 {
-  font-size: 50px;
+  font-size: rem(30);
+  @include respond-to('sm') {
+    font-size: rem(50);  
+  }
 }
 
 h4 {
-  font-size: 30px;
+  font-size: rem(20);
+  @include respond-to('sm') {
+    font-size: rem(30);  
+  }
 }
 h5 {
-  font-size: 20px;
+  font-size: rem(18);
+  @include respond-to('sm') {
+    font-size: rem(20);  
+  }
 }
 
 h6 {
-  font-size: 16px;
+  font-size: rem(16);
+  line-height: 20px;
 }

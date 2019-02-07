@@ -1,0 +1,68 @@
+$break-xs: 480px;
+$break-sm: 768px;
+$break-md: 992px;
+$break-lg: 1200px;
+
+$landscape: 'landscape';
+$portrait: 'portrait';
+
+@mixin respond-to($point) {
+  @if $point == xs {
+    @media screen and (min-width : $break-xs ) { @content; }
+  }
+  @else if $point == sm {
+    @media screen and (min-width : $break-sm ) { @content; }
+  }
+  @else if $point == md {
+    @media screen and (min-width : $break-md ) { @content; }
+  }
+  @else if $point == lg {
+    @media screen and (min-width : $break-lg ) { @content; }
+  }
+}
+
+@mixin respond-to-landscape($point) {
+  
+  @if $point == xs {
+    @media screen and (max-width : $break-xs ) and (orientation : $landscape) { @content; }
+  }
+
+  @else if $point == sm {
+    @media screen and (max-width : $break-sm ) and (orientation : $landscape) { @content; }
+  }
+  @else if $point == md {
+    @media screen and (max-width : $break-md ) and (orientation : $landscape) { @content; }
+  }
+  @else if $point == lg {
+    @media screen and (max-width : $break-lg ) and (orientation : $landscape) { @content; }
+  }
+}
+
+@mixin respond-to-portrait($point) {
+  @if $point == xs {
+    @media screen and (max-width : $break-xs ) and (orientation : $portrait) { @content; }
+  }
+
+  @else if $point == sm {
+    @media screen and (max-width : $break-sm ) and (orientation : $portrait) { @content; }
+  }
+  @else if $point == md {
+    @media screen and (max-width : $break-md ) and (orientation : $portrait) { @content; }
+  }
+  @else if $point == lg {
+    @media screen and (max-width : $break-lg ) and (orientation : $portrait) { @content; }
+  }
+}
+
+@mixin respond-to-ipad () {
+  @media screen and (min-width: 768px )and (max-width : 1024px ) { 
+    @content;
+  }
+}
+
+
+$browser-context: 16; // Default
+
+@function rem($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}rem;
+}

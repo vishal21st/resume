@@ -12,4 +12,6 @@ document.getElementById('qualification-section').innerHTML = QualificationTpl();
 document.getElementById('skill-section').innerHTML = AsideSectionTpl(Skills);
 document.getElementById('language-section').innerHTML = AsideSectionTpl(Languages);
 document.getElementById('personal-detail-section').innerHTML = PersonalDetailTpl(PersonalDetails);
+document.getElementById('personal-detail-section-mb').innerHTML = PersonalDetailTpl(PersonalDetails);
+
 document.getElementById('page-heading').innerHTML = PageHeadingTpl(PersonalDetails)
