@@ -21,6 +21,7 @@ body {
 .container {
   background: $white;
   width: 100%;
+  position: relative;
   @include respond-to('sm') {
     width: 900px;
   }
@@ -245,4 +246,20 @@ body {
 
 .text-pink {
   color: $pink;
+}
+
+
+.download-link {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  text-decoration: none;
+  font-size: 26px;
+  color: red;
+}
+
+@media print and (min-width: 480px) {
+  .download-link {
+    display: none;
+  }
 }
