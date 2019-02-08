@@ -1,4 +1,5 @@
 import "./css/style.scss"
+
 import { Companies, Projects, PersonalDetails, Skills, Languages } from './js/store'
 const CompaniesTpl = require("./js/templates/CompanyList.hbs")
 const ProjectsTpl = require("./js/templates/Projects.hbs")
@@ -15,3 +16,4 @@ document.getElementById('personal-detail-section').innerHTML = PersonalDetailTpl
 document.getElementById('personal-detail-section-mb').innerHTML = PersonalDetailTpl(PersonalDetails);
 
 document.getElementById('page-heading').innerHTML = PageHeadingTpl(PersonalDetails)
+
