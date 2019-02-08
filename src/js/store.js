@@ -19,7 +19,7 @@ export const Companies = [
     name: "Eltropy Inc",
     tenure: "May 2015 - Oct 2015",
     link: "https://www.eltropy.com/",
-    role: "Web Developer",
+    role: "UI Developer",
     logo_link: "images/eltropy.png",
     details: "Eltropy is a Silicon Valley Startup with its development center in Bangalore, providing smart solutions for B2B collateral. I worked as a Web Developer on feature building and enhancements, and was also instrumental in porting the legacy knockout.js code to Angular js."
   },
@@ -27,7 +27,7 @@ export const Companies = [
     name: "Bang The Table",
     tenure: "Aug 2014 - Apr 2015",
     link: "https://www.bangthetable.com/",
-    role: "Web Developer",
+    role: "UI Developer",
     logo_link: "images/btt.png",
     details: "Bang the table is an Australian Startup providing community engagement solutions to local government and companies. I worked as a Web Developer and worked closely with the product team to implement new features while constantly enhancing the existing ones."
   },
@@ -35,7 +35,7 @@ export const Companies = [
     name: "Tech Mahindra",
     tenure: "Jun 2012 - Aug 2014",
     link: "https://www.techmahindra.com",
-    role: "Technical Associate",
+    role: "Software Developer",
     logo_link: "images/tech_m.gif",
     details: "I started my career with Tech Mahindra as a Software developer. While in Tech Mahindra, I worked on a Release Automation Tool - NOLIO. I provided support to a client Tesco's Devops cell to look after the release automation and trained its team on the said automation tool."
   }
@@ -52,7 +52,7 @@ export const Projects = [
 export const PersonalDetails = {
   first_name: "Vishal",
   last_name: "Singhal",
-  role: "Web Developer",
+  role: "Sr. Software Engineer",
   email: "vishal.singhal21st@gmail.com",
   nationality: "Indian",
   dob: "7 july 1990",
