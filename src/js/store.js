@@ -77,7 +77,7 @@ export const Skills = {
     },
     {
       name: "React Native",
-      level: "Beginner"
+      level: "Intermediate"
     },
     {
       name: "Ruby on Rails",
