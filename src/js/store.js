@@ -123,7 +123,7 @@ export const Languages = {
     },
     {
       name: "Hindi",
-      level: "Fluent"
+      level: "Native"
     }
   ]
 }
