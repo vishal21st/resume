@@ -1,7 +1,7 @@
 # Simple HTML, Vanilla Js, SASS Static Resume website builder
 
 Tired of updating your resume everytime you look for a job?
-Use Resume builder to make your configurable Static Resume Website .
+Use Resume builder to make your configurable Static Website .
 
  
 
