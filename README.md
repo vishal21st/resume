@@ -3,6 +3,9 @@
 Tired of updating your resume everytime you look for a job?
 Use Resume builder to make your configurable Static Website .
 
+# Demo
+
+ https://vishal21st.github.io/resume/
  
 
 # Steps to run
