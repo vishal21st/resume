@@ -1,11 +1,19 @@
 export const Companies = [
   {
+    name: "Tapchief",
+    tenure: "June 2019 - Present",
+    link: "https://tapchief.com",
+    role: "Senior Software Engineer",
+    logo_link: "images/tapchief.png",
+    details: "TapChief empowers over 60000+ professionals to aggregate their personal brand online, interact and learn from top professionals and work with businesses on consultations & projects. As a senior product engineer, I lead the development of ATS-Admin (Applicant Tracking system) for our Operations Team. It helps Tapchief in managing  applications and projects posted on our platform. We use Angular 6, Python Django for building our products."
+  },
+  {
     name: "Weinvest",
-    tenure: "Aug 2016 - Present",
+    tenure: "Aug 2016 - May 2019",
     link: "https://weinvest.net",
     role: "Senior Software Engineer",
     logo_link: "images/weinvest.png",
-    details: "Weinvest is Fintech Startup headquartered in Singapore with its development centre in Bangalore. I work here as a Full Stack Developer and UI Team Lead. My role here is to build the core products and also handle client implementations on need basis."
+    details: "Weinvest is a Fintech Startup headquartered in Singapore with its development centre in Bangalore. As a core team member and UI Team Lead, I got the opportunity to build the initial products of the company. During my Stint in Weinvest I got the opportunity to build Grow Wealth (Robo Advisory Platform), Advise wealth (RM assisted Advisory), Start Wealth (Strategy Marketplace) using React, Vue js and Ruby on Rails."
   },
   {
     name: "Pipecast",
@@ -13,7 +21,7 @@ export const Companies = [
     link: "http://pipecast.in",
     role: "Co-founder",
     logo_link: "images/pipecast.png",
-    details: "Pipecast is a Video Streaming and Video Creators Networking Platform with two platforms - Pipecast Stream [http://pipecast.in] and Pipecast Colab [http://colab.pipecast.in]. I, as Cofounder of Pipecast, developed the Front End for both the platforms in Angualr js."
+    details: "Pipecast is a Video Streaming and Video Creators Networking Platform with two platforms - Pipecast Stream [http://pipecast.in] and Pipecast Colab [http://colab.pipecast.in]. I, as Cofounder of Pipecast, developed the Front End for both the platforms in Angular js."
   },
   {
     name: "Eltropy Inc",
@@ -21,7 +29,7 @@ export const Companies = [
     link: "https://www.eltropy.com/",
     role: "UI Developer",
     logo_link: "images/eltropy.png",
-    details: "Eltropy is a Silicon Valley Startup with its development center in Bangalore, providing smart solutions for B2B collateral. I worked as a Web Developer on feature building and enhancements, and was also instrumental in porting the legacy knockout.js code to Angular js."
+    details: "Eltropy is a Silicon Valley Startup with its development centre in Bangalore, providing smart solutions for B2B collateral. I worked as a Web Developer on feature building and enhancements, and was also instrumental in porting the legacy knockout.js code to Angular js."
   },
   {
     name: "Bang The Table",
@@ -29,7 +37,7 @@ export const Companies = [
     link: "https://www.bangthetable.com/",
     role: "UI Developer",
     logo_link: "images/btt.png",
-    details: "Bang the table is an Australian Startup providing community engagement solutions to local government and companies. I worked as a Web Developer and worked closely with the product team to implement new features while constantly enhancing the existing ones."
+    details: "Bang the table is an Australian Startup providing community engagement solutions to local government and companies. As a Web Developer I worked closely with the product team to implement new features while constantly enhancing the existing ones."
   },
   {
     name: "Tech Mahindra",

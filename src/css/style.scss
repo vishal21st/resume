@@ -118,11 +118,13 @@ body {
 }
 
 .company-logo-link {
-  display: none;
-  @include respond-to('md') {
+  // display: none;
+  // @include respond-to('md') {
+    display: inline-block;
     width: 50px;
     height: 50px;
-  }
+  // }
+
 }
 
 .company-logo {
